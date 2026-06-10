@@ -86,6 +86,17 @@ const SareeDetail = () => {
           />
         </Helmet>
       )}
+      {/* Dynamic meta for each saree */}
+      {item?.slug === "jamdani" && (
+        <Helmet>
+          <title>Premium Jamdani Saree Wholesale USA | Megh Balika</title>
+          <meta
+            name="description"
+            content="Partner with Megh Balika, a premium jamdani saree wholesale supplier in the USA. We are an authentic, handcrafted Bengali jamdani cotton saree exporter."
+          />
+        </Helmet>
+      )}
+
 
       <MenuTrigger onOpen={() => setMenuOpen(true)} />
       <MenuOverlay open={menuOpen} onClose={() => setMenuOpen(false)} />
