@@ -99,7 +99,7 @@ const SareeDetail = () => {
           <meta name="twitter:description" content="Partner with Megh Balika, India's premier kantha stitch saree supplier. We provide bulk handmade kantha clothing & sustainable fashion wholesale to the USA." />
           <meta name="twitter:image" content="https://hgphlzxkacbadwdshulp.supabase.co/storage/v1/object/public/collection-images/1777133632693-ikejs2.jpeg" />
 
-          {/* Robots & Author */}
+          {/* Robots & Author  */}
           <meta name="robots" content="index, follow, noodp, noydir" />
           <meta name="googlebot" content="noodp, noydir" />
           <meta name="slurp" content="noodp, noydir" />
